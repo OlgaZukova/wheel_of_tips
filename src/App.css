@@ -1,0 +1,66 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url("./assets/seaside.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #f3e8ff;
+  padding: 30px;
+}
+
+.tip-container {
+  background: rgba(255, 255, 255, 0.93);
+  padding: 40px;
+  border-radius: 15px;
+  max-width: 550px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+.tip-container p {
+  font-size: 30px;
+  margin-bottom: 30px;
+  color: #7135a5;
+}
+
+.tip-container button {
+  font-size: 18px;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 8px;
+  background: #a34ae8;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+
+  .App {
+    min-height: 100svh;
+    padding: 20px;
+    background-position: center;
+  }
+
+  .tip-container {
+    width: 100%;
+    max-width: 100%;
+    padding: 25px 18px;
+    box-sizing: border-box;
+  }
+
+  .tip-container p {
+    font-size: 22px;
+    margin-bottom: 25px;
+  }
+
+  .tip-container button {
+    font-size: 16px;
+    padding: 12px 24px;
+  }
+
+}
