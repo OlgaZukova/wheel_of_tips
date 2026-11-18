@@ -17,5 +17,5 @@ If you are developing a production application, we recommend using TypeScript wi
 
 ## Preview
 
-![wheel_of_tips](./wheel_of_tips.png)
+wheel_of_tips.png
 
