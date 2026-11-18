@@ -17,5 +17,6 @@ If you are developing a production application, we recommend using TypeScript wi
 
 ## Preview
 
-wheel_of_tips.png
+<img width="1872" height="987" alt="image" src="https://github.com/user-attachments/assets/f4e598b7-5a7f-4921-a4a3-c25e0202ffd1" />
+
 
